@@ -4,11 +4,12 @@
 #for letter in user_word:
     # Complete the body of the for loop.
 
-for letter in 'Python':     # First Example
-    if letter == 'y,h,o':
+user_word = input('Type a word: ')
+user_word = user_word.upper()
+for i in user_word:
+    if (i == 'A' or i=='E' or i=='O' or i=='U' or i=='I'):
         continue
-    
-print ('Current Letter :', letter)
+    print (i)
 
 
 
